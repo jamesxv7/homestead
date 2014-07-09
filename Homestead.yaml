@@ -3,10 +3,10 @@ ip: "192.168.10.10"
 memory: 1024
 cpus: 1
 
-authorize: c:/vagrant/Homestead/.ssh/id_rsa.pub
+authorize: c:/vagrant/Homestead/.ssh/github_rsa.pub
 
 keys:
-    - c:/vagrant/Homestead/.ssh/id_rsa
+    - c:/vagrant/Homestead/.ssh/github_rsa
 
 folders:
     - map: c:/vagrant/Homestead/bpo
