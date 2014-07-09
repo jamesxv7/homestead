@@ -32,6 +32,11 @@ How to see if the box is available in Vagrant? Execute the following command:
 You should see the following description in the box list: laravel/homestead      (virtualbox, 0.1.6) 
 
 2. Clone this repository - 
+
 Once the box has been added to your Vagrant installation, you should clone or download this repository. Consider cloning the repository into a central Homestead directory or in the desire folder where you keep all of your Laravel projects, as the Homestead box will serve as the host to all of your Laravel (and PHP) projects. 
 
 `git clone https://github.com/jamesxv7/homestead.git bpo`
+
+3. Launch The Vagrant Box
+
+Once you have edited the Homestead.yaml to your liking (if necesary), run the vagrant up command from the Homestead directory in your terminal. Vagrant will boot the virtual machine, and configure your shared folders and Nginx sites automatically!
