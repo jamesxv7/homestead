@@ -44,3 +44,11 @@ Once you have edited the Homestead.yaml to your liking (if necesary), run the va
 `vagrant up`
 
 ###SSH Homestead Virtual Machine to Install Laravel
+
+First execute the following command in the terminal window.
+
+`vagrant ssh`
+
+If everything goes correct proceed to install Laravel.
+
+`composer create-project laravel/laravel --prefer-dist`
