@@ -39,6 +39,6 @@ Once the box has been added to your Vagrant installation, you should clone or do
 
 ###Launch The Vagrant Box
 
-Once you have edited the Homestead.yaml to your liking (if necesary), run the vagrant up command from the Homestead directory in your terminal. Vagrant will boot the virtual machine, and configure your shared folders and Nginx sites automatically!
+Once you have edited the Homestead.yaml to your liking (if necesary), run the vagrant up command from the **bpo** directory in your terminal. Vagrant will boot the virtual machine, and configure your shared folders and Nginx sites automatically!
 
 ###SSH Homestead Virtual Machine to Install Laravel
